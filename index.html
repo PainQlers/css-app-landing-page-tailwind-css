@@ -9,10 +9,10 @@
   </head>
   <body class="bg-[#F6F6FB]">
     <!-- Bright SECTION -->
-    <div class="flex w-[full] h-[272px] justify-center gap-10 box-border">
+    <div class="flex flex-col w-full h-full justify-center items-center gap-4 sm:gap-6 md:gap-10 box-border lg:flex-row lg:mb-auto">
       <!-- main container -->
-      <div class="w-[387px] h-full bg-[#DEEAFB] rounded-xl ">
-        <div class="p-[30px]">
+      <div class="w-full sm:w-[20rem] md:w-[24rem] h-full bg-[#DEEAFB] rounded-xl">
+        <div class="p-[1.875rem]">
           <!-- Star SVG Icon -->
           <svg class="mb-[40px] p-[9px] flex flex-col items-start justify-center w-[48px] h-[48px] bg-white rounded-lg "
             width="28"
@@ -35,8 +35,8 @@
           </p>
         </div>
       </div>
-      <div class="w-[387px] h-full bg-[#D6DFF9] rounded-xl">
-        <div class="p-[30px]">
+      <div class="w-full sm:w-[20rem] md:w-[24rem] h-full bg-[#D6DFF9] rounded-xl">
+        <div class="p-[1.875rem]">
           <!-- clock SVG Icon -->
           <svg class="mb-[40px] p-[9px] flex items-center justify-center w-[48px] h-[48px] bg-white rounded-lg"
             width="29"
@@ -59,8 +59,8 @@
           </p>
         </div>
       </div>
-      <div class="w-[387px] h-full bg-[#E5D4F3] rounded-xl">
-        <div class="p-[30px]">
+      <div class="w-full sm:w-[20rem] md:w-[24rem] h-full bg-[#E5D4F3] rounded-xl">
+        <div class="p-[1.875rem]">
           <!-- Smile SVG Icon -->
           <svg class="mb-[40px] p-[9px] flex items-center justify-center w-[48px] h-[48px] bg-white rounded-lg"
             width="27"
@@ -80,33 +80,33 @@
           <p class="text-gray-600">
             Our user-friendly interface makes it easy for anyone to streamline
             their workflow.
-          </p>
+          </p><br>
         </div>
       </div>
     </div>
-    <section class="flex flex-col items-center justify-center">
+    <section class="flex flex-col items-center justify-center w-full px-4">
 
-      <h1 class="text-center text-5xl font-bold pt-[140px] pb-[40px] text-[#1A1A2B]">Get in Touch</h1>
-      <form class="flex flex-col justify-between w-[589px] h-[454px] gap-4 box-border">
+      <h1 class="text-center font-bold text-2xl sm:text-3xl md:text-5xl pt-16 sm:pt-24 md:pt-[8.75rem] pb-8 sm:pb-10 md:pb-[2.5rem] text-[#1A1A2B]">Get in Touch</h1>
+      <form class="flex flex-col justify-between w-full max-w-[36.8125rem] h-auto gap-4 box-border">
         <label for="name" class="text-gray-500">Name</label>
-        <input type="text" id="name" name="name" class="p-3 border-[1px] border-[#E0E0ED] rounded-3xl w-full h-[48px] placeholder:p-[15px] bg-white hover:border-[#B5A9FF]  focus:border-[#5E44FF] focus:outline-none" placeholder="John Doe" required />
+        <input type="text" id="name" name="name" class="p-3 border-[1px] border-[#E0E0ED] rounded-3xl w-full h-[3rem] placeholder:p-[15px] bg-white hover:border-[#B5A9FF]  focus:border-[#5E44FF] focus:outline-none" placeholder="John Doe" required />
 
         <label for="email" class="text-gray-500">Email</label>
-        <input type="email" id="email" name="email" class="p-3 border-[1px] border-[#E0E0ED] rounded-3xl w-full h-[48px] placeholder:p-[15px] bg-white hover:border-[#B5A9FF] focus:border-[#5E44FF] focus:outline-none" placeholder="john@example.com" required />
+        <input type="email" id="email" name="email" class="p-3 border-[1px] border-[#E0E0ED] rounded-3xl w-full h-[3rem] placeholder:p-[15px] bg-white hover:border-[#B5A9FF] focus:border-[#5E44FF] focus:outline-none" placeholder="john@example.com" required />
 
         <label for="message" class="text-gray-500">Message</label>
-        <input  type="text" id="message" name="message" class="p-3 pb-[60px] border-[1px] border-[#E0E0ED] rounded-3xl w-full h-[102px] placeholder:p-[15px] bg-white hover:border-[#B5A9FF] focus:border-[#5E44FF] focus:outline-none" placeholder="Your message..." required></input>
+        <input  type="text" id="message" name="message" class="p-3 pb-[3.75rem] border-[1px] border-[#E0E0ED] rounded-3xl w-full h-[6.375rem] placeholder:p-[15px] bg-white hover:border-[#B5A9FF] focus:border-[#5E44FF] focus:outline-none" placeholder="Your message..." required></input>
 
-        <button type="submit" class="w-[589px] h-[56px] bg-[#1A1A2C] text-white rounded-2xl pl-9 pr-9 pt-4 pb-4 hover:bg-[#5F5F76] focus:bg-[#35354D] focus:ring-2 focus:ring-[#5F5F76]">Submit</button>
+        <button type="submit" class="w-full h-[3.5rem] bg-[#1A1A2C] text-white rounded-2xl pl-9 pr-9 pt-4 pb-4 hover:bg-[#5F5F76] focus:bg-[#35354D] focus:ring-2 focus:ring-[#5F5F76]">Submit</button>
       </form>
     </section>
 
-    <footer class="">
-      <div class="flex flex-row justify-between pt-[140px] pr-[140px] pl-[140px] pb-[80px]">
-        <div class="">
+    <footer class="w-full">
+      <div class="flex flex-col text-center justify-evenly pt-16 sm:pt-24 md:pt-[8.75rem] px-4 sm:px-8 md:px-[8.75rem] pb-8 sm:pb-10 md:pb-[5rem] lg:flex-row lg:justify-between w-full">
+        <div class="relative bottom-7 lg:static">
           Acme productivity app ©2024
         </div>
-        <div class="w-[313px] flex flex-row justify-between font-semibold">
+        <div class="w-full max-w-[19.5625rem] flex flex-row justify-between font-semibold mt-4 lg:mt-0 absolute lg:static">
           <a href="#" class="hover:text-[#5E44FF] hover:underline">FAQ</a>
           <a href="#" class="hover:text-[#5E44FF] hover:underline">Terms</a>
           <a href="#" class="hover:text-[#5E44FF] hover:underline">AI Policy</a>
